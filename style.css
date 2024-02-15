@@ -1,0 +1,700 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+
+}
+body{
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* top side of navbar*/
+.topnavbar{
+    height: 60px;
+    width: 100%;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+/*Amazon logo*/
+.nav-logo{
+    height: 60px;
+    width: 80px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    height: 40px;
+    width: 100px;
+    background-image: url(images/amzon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+    
+/*location box */
+.nav-location{
+    text-decoration: none;
+    color: white;
+    height: 50px;
+    width: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 8px;
+}
+i#1{
+    color: white;
+}
+.nav-loc-line1{
+    display: inline-block;
+    padding-right: 1px;
+    margin-left: 3px;
+    font-size: 12px;
+    height: 14px;
+    width: 50px;
+}
+.nav-loc-line2{
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 3px;
+    font-weight: bolder;
+    height: 16px; 
+    width: 50px;
+}
+
+
+/*search bar*/
+.nav-search{
+    min-width: 725px;
+    width: 40%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 4px;
+}
+/*all box*/
+.nav-search-dropdown{
+    height: 40px;
+    width: 50px;
+    border: none;
+    background-color: rgb(143, 139, 139);
+    border-radius: 4px 0px 0px 4px;
+}
+.category{
+    background-color: rgb(143, 139, 139);
+    height: 40px;
+    width: 40px;
+    margin: 0px 10px;
+    border: none;
+    align-self: center;
+}
+
+/*search field*/
+.nav-search-searchfield{
+    width: 625px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+input{
+    border: none;
+    width: 615px;
+    height: 35px;
+    display: inline-block;
+}
+
+/*search icon box*/
+.nav-searchicon{
+    background-color: #daaf37;
+    height: 40px;
+    width: 45px;
+    border-radius: 0px 4px 4px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-icon{
+    color: #0f1111;
+    width: 16px;
+}
+
+/*  country/langauge */ 
+
+.nav-country{
+    height: 50px;
+    width: 80px;
+    margin: 2px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.nav-country-flag{
+    height: 25px;
+    width: 25px;
+    background-image: url(images/india.png);
+    background-size: contain;
+
+}
+.nav-country-dropdown{
+    height: 25px;
+    width: 40px;
+    display: inline-block;
+    color: white;
+    background-color: #0f1111;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+
+/* account link/sign in */
+.nav-accountlink{
+    width: 140px;
+    height: 50px;
+    margin: 5px 8px;
+    padding: 6px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.nav-accountlink-text{
+    height: 40px;
+    width: max-content;
+}
+.nav-accountlink-line1{
+    height: 20px;
+    width: 90px;
+    font-size: 14px;
+}
+.nav-accountlink-line2{
+    width: 120px;
+    height: 20px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.ri-arrow-drop-down-fill{
+    align-self: center;
+}
+
+
+/* order box */
+.nav-orderbox{
+    text-decoration: none;
+    height: 50px;
+    width: 70px;
+    margin: 2.5px;
+    padding-left: 4px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.nav-orderbox-text1{
+    font-size: 14px;
+
+}
+.nav-orderbox-text2{
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+ /* My cart */
+.nav-cart{
+    height: 50px;
+    width: 100px;
+    margin: 2.5px 1px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ri-shopping-cart-line{
+    font-size: 40px;
+}
+.nav-cart-line1{
+    align-self: flex-end;
+    margin-bottom: 6px;
+    padding-left: 2px;
+    font-weight: bold;
+}
+
+/*bottom side of navbar*/
+.bottomnavbar{
+    height: 40px;
+    background-color: #1d1f1f;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/*all*/
+.nav-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 20px;
+}
+.ri-menu-line{
+    font-size: 20px;
+    margin-right: 3px;
+    /* font-weight: bold; */
+}
+.nav-all-text{
+    font-weight: bolder;
+    margin-top: 2px;
+    margin-right: 5px;
+    font-size: 14px;
+    align-self: center;
+}
+
+/*remaining boxes*/
+.nav-rem{
+    
+    display: flex;
+    justify-content: space-between;
+} 
+.nav-a{
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+/*hero image*/
+.hero-image{
+    height: 350px;
+    width: 100%;
+    background-image: url(images/hero_image1.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+/*arrows hero image*/
+#arrow{
+    font-size: 150px;
+    height: 350px;
+    width: 150px;
+    color: rgba(255, 255, 255, 0.25);
+    display: flex;
+    align-items: center;
+}
+
+/*box hover animation*/
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid #e1e1e1;
+}
+.border-ora{ 
+    border: 2.5px solid transparent;
+}
+.border-ora:hover{
+    border: 2.5px solid orange;
+}
+/*change colore on hover*/
+.changecolor{
+    color: white;
+
+}
+.changecolor:hover{
+  color: #daaf37;
+}
+
+/*shopping cards*/
+.cardsgroup{
+    height: 900px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #e1e1e1;
+
+}
+.cardsgroup p{
+    color: #007185;
+}
+main{
+    background-color: #e1e1e1; 
+    height: max-content;
+}
+
+.topcards{
+    height: 420px;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+
+}
+.tcard{
+    height: 420px;
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background-color: white;
+   
+}
+.card-img{
+    height: 17.5rem;
+    width: 17.5rem;
+    background-size: cover;
+}
+
+
+
+.bottomcards{
+    height: 420px;
+    width: 1351px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.bcard{
+    height: 420px;
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background-color: white;
+}
+
+.fourinOnecard{
+    height: 420px;
+    width: max-content;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background-color: white;
+}
+.Uppercards{
+    height: 151px;
+    width: 272px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.Lowercards{
+    height: 151px;
+    width: 272px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card-img-fio{
+    height: 115px;
+    width: 130px;
+    margin: 8px;
+    background-size: cover;
+    background-repeat:no-repeat ;
+}
+.fiopd{
+    font-size: 12px;
+    margin-left: 10px;
+}
+.fioSeemore{
+    color: #007185;
+    text-decoration: none;
+    font-size: 14px;
+}
+.fioSeemore:hover{
+    text-decoration: underline;
+    color: #daaf37;
+}
+
+
+/* mobile section*/
+.mobilesection{
+    height: 250px;
+    width: 1305px;
+    margin-left: 22px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.mobiletitle{
+    height: 40px;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 20px;
+}
+.mobiletitle a{
+    margin-left: 10px;
+    padding-bottom: 1.5px;
+}
+.mobiles{
+    height: 210px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* blockbuster deals section*/
+.blockbuster{
+    height: 320px;
+    width: 1305px;
+    margin-left: 22px;
+    margin-bottom: 20px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.blockbustertitle{ 
+    height: 40px;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 20px;
+}
+.blockbustertitle a{
+    margin-left: 10px;
+    padding-bottom: 1.5px;
+}
+.blockbusterimg{
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.blockbusterdetails{
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.topbcd{
+    display: flex;
+    justify-content: flex-start;
+    height: 20px;
+}
+.discountbox{
+    display: inline-block;
+    padding: 1px;
+    margin-left: 100px;
+    background-color: #cc0c39;
+    color: wheat;
+}
+.bottombcd{
+    color:#232f3e;
+    display: flex;
+    flex-direction: column;
+}
+.bottombcdline1{
+    display: flex;
+    margin-left: 72px;
+}
+.bottombcdline2{
+    display: flex;
+    font-size: 14px;
+}
+.b1{
+    margin-left: 72px;
+}
+.b2{
+    margin-left: 185px;
+}.b3{
+    margin-left: 134px;
+}
+.b4{
+    margin-left: 135px;
+}
+.b5{
+    margin-left: 228px;
+}
+
+
+.l2{
+    margin-left: 15px;
+}.l3{
+    margin-left: 5px;
+}
+.l4{
+    margin-left: 7px;
+}
+.l5{
+    margin-left: 172px;
+}
+
+
+
+
+/*trainticket*/
+.trainticket{
+    height: 310px;
+    width: 1305px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.trainticket img{
+    padding: 20px;
+    height: 310px;
+}
+
+
+
+/*beauty banner*/
+.beautybanner{
+    height: 270px;
+    width: 1305px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.beautybannertitle{
+    margin-left: 20px;
+    margin-top: 10px;
+    display: flex;
+    height: 40px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.beautybannertitle a{
+    margin-left: 10px;
+    padding-top: 1.5px;
+}
+.beautybannerimg{
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*Footer*/
+.foot{
+    height: 500px;
+    width: 1351px;
+    background-color: #1d1f1f;
+    display: flex;
+    flex-direction: column;
+}
+.backtotop{
+    height: 50px;
+    width: 100%;
+    background-color: #232f3e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 0.95rem;
+}
+.backtotop a{
+    text-decoration: none;
+    color: white;
+}
+.backtotop a:hover{
+    text-decoration: underline white;
+}
+.midfoot{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contentbox{
+    height: 260px;
+    width: 225px;
+    padding: 20px 5px;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.topcbox{
+    height: 25px;
+    font-size: 16px;
+    padding-left: 10px;
+    font-weight: bolder;
+   
+}
+.bottomcbox{
+    height: 120px;
+    font-size: 14px;
+    padding-left: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bottomcbox p:hover{
+    text-decoration: underline;
+}
+
+.bottomfoot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    height: 70px;
+    width: 100%
+    
+}
+.bfootlogo{
+    height: 25px;
+    width: 75px;
+    margin-right: 80px;
+    background-image: url(images/amzon.png);
+    background-size: cover;
+}
+.bfoottextbox{
+    font-size: 14px;
+    margin-right: 10px;
+    border-radius: 4px;
+    color: white;
+    height: 35px;
+    width: 120px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bfoottextbox:hover{
+    border: 1.2px solid #e1e1e1;
+}
+
+.ri-expand-up-down-fill{
+    color: rgba(255, 255, 255, 0.25);
+}
