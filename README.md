@@ -1,11 +1,11 @@
 ## Preview
 
-![Header](https://dl.dropbox.com/scl/fi/kqmqnhs43dj9oefniose1/amz-ui-clone1.png?rlkey=xs1ti64t5c4we0srpx0dv19fa&dl=0))
+![Header](https://dl.dropbox.com/scl/fi/kqmqnhs43dj9oefniose1/amz-ui-clone1.png?rlkey=xs1ti64t5c4we0srpx0dv19fa&dl=0)
 
 ![Product Page](https://dl.dropbox.com/scl/fi/qr8mgdiryky6pe30zzaeb/amz-ui-clone2.png?rlkey=1snahvk5h4goq42rmil91u7cw&dl=0)
-![Product Page](https://www.dropbox.com/scl/fi/z22jmb79phx781b5njzrc/amz-ui-clone3.png?rlkey=ag5o0pawvmew0j7h4n6ge2ik1&dl=0)
+![Product Page](https://dl.dropbox.com/scl/fi/z22jmb79phx781b5njzrc/amz-ui-clone3.png?rlkey=ag5o0pawvmew0j7h4n6ge2ik1&dl=0)
 
-![footer](https://www.dropbox.com/scl/fi/exswzlifh12ocbud7pdze/amz-ui-clone4.png?rlkey=u4cy2vgo6yl0yor2p7m1woink&dl=0)
+![footer](https://dl.dropbox.com/scl/fi/exswzlifh12ocbud7pdze/amz-ui-clone4.png?rlkey=u4cy2vgo6yl0yor2p7m1woink&dl=0)
 
 
 # Amazon UI Clone
